@@ -1,10 +1,9 @@
+function A=Cfile2Data(file,n)
+
 %Code to open .cdat files from  Wire Mesh sensor
 %file is the .cdat file to be open
 %n is the grid size (16,24,32,64 ...)
 %Returns a Matrix A of dimensions n*n*number_of_frames
-
-
-function A=Cfile2Data(file,n)
 
 fid = fopen(file);
 
