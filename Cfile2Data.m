@@ -22,7 +22,7 @@ else
 end
 
 %number of frames in the file
-n_frm = floor(size(S,1)/n/n);
+n_frm = size(S,1)/n/n;
 
 if n_frm~=round(n_frm)
     disp('Grid resolution do not match the size of the file')
