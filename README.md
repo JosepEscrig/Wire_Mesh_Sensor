@@ -22,4 +22,15 @@ Some codes to open and process these 3D matrices of data of the WMS are included
 
 ## Opening files
 
+[Cfile2Data](/Cfile2Data.m) opens .cdat files containing 12 bits capacitive raw data
+
+[Vfile2Data](/Vfile2Data.m) opens .v files containing 8 bits void fraction data
+
+
+## Saving files
+
+[Data2Vfile](/Data2Vfile.m) saves data into a .v files containing 8 bits void fraction data
+
+
+
 To be continued...
