@@ -32,5 +32,14 @@ Some codes to open and process these 3D matrices of data of the WMS are included
 [Data2Vfile](/Data2Vfile.m) saves data into a .v files containing 8 bits void fraction data
 
 
+## Processing data
+
+[calibrationPermittivity](/calibrationPermittivity.m) obtains calibrated data of the void fraction from capacitive raw data
+
+[weightsMatrixGenerator](/weightsMatrixGenerator.m) generates the void fraction weights matrix for a specific sensor geometry
+
+[radialWeightsMatrixGenerator](/radialWeightsMatrixGenerator.m) generates the weights matrix to calculate the radial distribuition
+of the void fraction
+
 
 To be continued...
