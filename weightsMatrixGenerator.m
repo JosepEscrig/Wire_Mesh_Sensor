@@ -32,7 +32,7 @@ for i=1:n/2
     for j=1:n/2
        if areaCell(i,j)==0
            M(i,j)=M(i,j)+0;
-       elseif areaCell(i,j)<p^2/2
+       elseif areaCell(i,j)<p^2*2/3
            M(i,j)=M(i,j)+areaCell(i,j);
            M(i+1,j)=M(i+1,j)+M(i,j)/2;
            M(i,j+1)=M(i,j+1)+M(i,j)/2;
@@ -47,7 +47,7 @@ for i=1:n/2
     for j=n:-1:n/2+1
        if areaCell(i,j)==0
            M(i,j)=M(i,j)+0;
-       elseif areaCell(i,j)<p^2/2
+       elseif areaCell(i,j)<p^2*2/3
            M(i,j)=M(i,j)+areaCell(i,j);
            M(i+1,j)=M(i+1,j)+M(i,j)/2;
            M(i,j-1)=M(i,j-1)+M(i,j)/2;
@@ -62,7 +62,7 @@ for i=n:-1:n/2+1
     for j=1:n/2
        if areaCell(i,j)==0
            M(i,j)=M(i,j)+0;
-       elseif areaCell(i,j)<p^2/2
+       elseif areaCell(i,j)<p^2*2/3
            M(i,j)=M(i,j)+areaCell(i,j);
            M(i-1,j)=M(i-1,j)+M(i,j)/2;
            M(i,j+1)=M(i,j+1)+M(i,j)/2;
@@ -77,7 +77,7 @@ for i=n:-1:n/2+1
     for j=n:-1:n/2+1
        if areaCell(i,j)==0
            M(i,j)=M(i,j)+0;
-       elseif areaCell(i,j)<p^2/2
+       elseif areaCell(i,j)<p^2*2/3
            M(i,j)=M(i,j)+areaCell(i,j);
            M(i-1,j)=M(i-1,j)+M(i,j)/2;
            M(i,j-1)=M(i,j-1)+M(i,j)/2;
