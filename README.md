@@ -49,6 +49,6 @@ of the void fraction
 
 [rotationMatrixGenerator](/rotationMatrixGenerator.m) generates the rotation matrix for an especific angle of rotation
 
-[rotateData](/rotateData.m) rotates void fraction data matrix the angle of the rotation matrix
+[rotateData](/rotateData.m) rotates void fraction data matrix using the rotation matrix for an especific angle of rotation
 
 To be continued...
