@@ -38,8 +38,13 @@ Some codes to open and process these 3D matrices of data of the WMS are included
 
 [weightsMatrixGenerator](/weightsMatrixGenerator.m) generates the void fraction weights matrix for a specific sensor geometry
 
+[maskGenerator](/maskGenerator.m) generates the mask matrix from the weights matrix
+
+[Data2TimeSeries](/Data2TimeSeries.m) calculates void fraction time series from the void fraction data
+
 [radialWeightsMatrixGenerator](/radialWeightsMatrixGenerator.m) generates the weights matrix to calculate the radial distribuition
 of the void fraction
 
+[Data2RadialDistribution](/Data2RadialDistribution.m) calculates void fraction radial distribution from void fraction data
 
 To be continued...
