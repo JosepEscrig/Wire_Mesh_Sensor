@@ -47,4 +47,8 @@ of the void fraction
 
 [Data2RadialDistribution](/Data2RadialDistribution.m) calculates void fraction radial distribution from void fraction data
 
+[rotationMatrixGenerator](/rotationMatrixGenerator.m) generates the rotation matrix for an especific angle of rotation
+
+[rotateData](/rotateData.m) rotates void fraction data matrix the angle of the rotation matrix
+
 To be continued...
