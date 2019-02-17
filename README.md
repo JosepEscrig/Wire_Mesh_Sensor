@@ -31,23 +31,28 @@ Some codes to open and process these 3D matrices of data of the WMS are included
 
 [Data2Vfile](/Data2Vfile.m) saves data into a .v files containing 8 bits void fraction data
 
+[Data2Cfile](/Data2Cfile.m) saves data into a .cdat files containing 12 bits raw data
 
-## Processing data
 
-[calibrationPermittivity](/calibrationPermittivity.m) obtains calibrated data of the void fraction from capacitive raw data
+## Weights and transformation matrices
 
 [weightsMatrixGenerator](/weightsMatrixGenerator.m) generates the void fraction weights matrix for a specific sensor geometry
 
 [maskGenerator](/maskGenerator.m) generates the mask matrix from the weights matrix
 
-[Data2TimeSeries](/Data2TimeSeries.m) calculates void fraction time series from the void fraction data
-
 [radialWeightsMatrixGenerator](/radialWeightsMatrixGenerator.m) generates the weights matrix to calculate the radial distribuition
 of the void fraction
 
-[Data2RadialDistribution](/Data2RadialDistribution.m) calculates void fraction radial distribution from void fraction data
-
 [rotationMatrixGenerator](/rotationMatrixGenerator.m) generates the rotation matrix for an especific angle of rotation
+
+
+## Processing data
+
+[calibrationPermittivity](/calibrationPermittivity.m) obtains calibrated data of the void fraction from capacitive raw data
+
+[Data2TimeSeries](/Data2TimeSeries.m) calculates void fraction time series from the void fraction data
+
+[Data2RadialDistribution](/Data2RadialDistribution.m) calculates void fraction radial distribution from void fraction data
 
 [rotateData](/rotateData.m) rotates void fraction data matrix using the rotation matrix for an especific angle of rotation
 
