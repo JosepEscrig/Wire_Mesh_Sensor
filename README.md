@@ -56,4 +56,12 @@ of the void fraction
 
 [rotateData](/rotateData.m) rotates void fraction data matrix using the rotation matrix for an especific angle of rotation
 
-To be continued...
+
+## Example
+
+[example24x24](/example24x24.mlx) is a Matlab live script that shows how to use all these functions
+
+
+## See also
+
+[WMS data processing software manual](http://mpmt.de/en/products/wire-mesh-sensor/en/downloads/manual-wire-mesh-sensor-system-cap200), link to WMS developers, HZDR Innovation
