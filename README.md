@@ -26,6 +26,8 @@ Some codes to open and process these 3D matrices of data of the WMS are included
 
 [Vfile2Data](/Vfile2Data.m) opens .v files containing 8 bits void fraction data
 
+[Rfile2Data](/Rfile2Data.m) opens .ces files containing 12 bits capacitive raw data (only works for 32x32 wires)
+
 
 ## Saving files
 
